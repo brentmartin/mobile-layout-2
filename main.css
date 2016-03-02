@@ -171,10 +171,11 @@ body > p {
 
 .content-items-selection-icon {
 	display: block;
-	background-color: #C7D2D8;
+	background-color: #DDE9F0;
 	height: 4em;
 	width: 4em;
 	margin: 0 auto .75em;
+	border-radius: 50%;
 }
 
 .content-items-selection h1 {
