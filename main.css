@@ -102,6 +102,24 @@ body {
 	margin: 0 auto 2em;
 }
 
+.header-items-selection-icon {
+	display: inline-block;
+	background-color: #616E80;
+	height: 3.5em;
+	width: 3em;
+	margin: .5em 0 0 0;
+}
+
+.header-items-selection-text {
+	display: inline-block;
+	float: right;
+	background-color: #616E80;
+	height: 3em;
+	width: 15em;
+	margin: 0 .2em 0 0;
+}
+
+
 
 .content {
 	background-color: #D1D3D7;
