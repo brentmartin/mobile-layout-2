@@ -2,15 +2,52 @@ body {
 	background-color: #E8F0F5;
 }
 
-.header {
-	background-color: #344052;
-	padding: 0 0 3em;	
-	margin: 0 0 12em;	
-}
 
 .header-topbar {
 	background-color: #118BC0;
 	height: 3em;
+	margin: 0 auto 2em;
+
+}
+
+.header-topbar-leftlink {
+	display: inline-block;
+	background-color: #FFFFFF;
+	height: 2em;
+	width: 2em;
+	margin: .5em 1em 0 1em;
+}
+
+.header-topbar-rightlink {
+	display: inline-block;
+	float: center;
+	background-color: #FFFFFF;
+	height: 2em;
+	width: 7em;
+	margin: .5 1em 0 1em;
+}
+
+.header-topbar-login-outside {
+ 	display: inline-block;
+	float: right;
+	background-color: #005B8C;
+	height: 3em;
+	width: 4.5em;
+	margin: 0 0 0 em;
+}
+
+.header-topbar-login-link {
+	display: inline-block;
+	background-color: #006FA6;
+	height: 2.9em;
+	width: 4.5em;
+	margin: 0 0 0 em;
+}
+
+.header {
+	background-color: #344052;
+	padding: 0 0 3em;	
+	margin: 0 0 12em;	
 }
 
 .header-banner {
@@ -23,15 +60,15 @@ body {
 	width: 80%;
 	text-align: center;
 	font-size: 32px;
-	margin: 3em auto 1em;
+	margin: 2.3em auto 1em;
 }
 
 .header-banner-description {
 	color: #FFFFFF;
 	width: 18em;
 	text-align: center;
-	font-size: 18px;
-	margin: 0 auto 2em;
+	font-size: 17px;
+	margin: 0 auto 1.5em;
 }
 
 .header-banner-button-outside {
@@ -117,4 +154,4 @@ li {
 	height: 1.25em;
 	width: 8em;
 	margin: 0 auto .8em;
-}z
+}
