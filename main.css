@@ -133,7 +133,31 @@ body {
 
 .content-items-selection {
 	background-color: #FFFFFF;
-	height: 13.5em;
+	height: 11.35em;
+	padding: 1em;
+	margin: 0 auto 2em;
+}
+
+.content-items-selection-icon {
+	display: block;
+	background-color: #C7D2D8;
+	height: 4em;
+	width: 4em;
+	margin: 0 auto .75em;
+}
+
+.content-items-selection-header {
+	display: block;
+	background-color: #C7D2D8;
+	height: 1.5em;
+	width: 100%;
+	margin: 0 auto 1em;
+}
+
+.content-items-selection-text {
+	display: block;
+	background-color: #C7D2D8;
+	height: 3em;
 	width: 100%;
 	margin: 0 auto 2em;
 }
