@@ -2,6 +2,15 @@ body {
 	background-color: #E8F0F5;
 }
 
+body p {
+	line-height: 1.6;
+}
+
+body > p {
+	color: #36465C;
+	text-align: center;
+	font-size: 24px;
+}
 
 .header-topbar {
 	background-color: #118BC0;
@@ -49,14 +58,13 @@ body {
 	top:30%;
 	left:30%;
 	font-size: 11px;
-
 }
 
 
 .header {
 	background-color: #344052;
 	padding: 0 0 3em;	
-	margin: 0 0 12em;	
+
 }
 
 .header-banner {
@@ -111,7 +119,6 @@ body {
 }
 
 .header-items-selection {
-	background-color: #FFFFFF;
 	height: 4em;
 	width: 19em;
 	margin: 0 auto 2em;
@@ -119,7 +126,7 @@ body {
 
 .header-items-selection-icon {
 	display: inline-block;
-	background-color: #616E80;
+	background-color: #FFFFFF;
 	height: 3.5em;
 	width: 3em;
 	margin: .5em 0 0 0;
@@ -128,24 +135,28 @@ body {
 .header-items-selection-text {
 	display: inline-block;
 	float: right;
-	background-color: #616E80;
 	height: 3em;
 	width: 15em;
 	margin: 0 .2em 0 0;
 }
 
 .header-items-selection-text h1 {
-
+ 	color: #FFFFFF; 	
+ 	font-size: 16px;
 }
 
-.header-items-selection-text a {
-	
+.header-items-selection-text p {
+ 	color: #FFFFFF;
+ 	font-size: 12px;
+
+
+
 }
 
 .content {
 	background-color: #D1D3D7;
 	padding: 2em .6em .01em;
-	margin: 0 0 11em;
+
 }
 
 .content-items {
@@ -154,8 +165,7 @@ body {
 
 .content-items-selection {
 	background-color: #FFFFFF;
-	height: 13em;
-	padding: 1em;
+	padding: 1em .75em 2em;
 	margin: 0 auto 2em;
 }
 
@@ -168,6 +178,7 @@ body {
 }
 
 .content-items-selection h1 {
+	color: #36465C;
 	display: block;
 	height: 1.5em;
 	width: 100%;
@@ -181,7 +192,7 @@ body {
 	display: block;
 	height: 3em;
 	width: 100%;
-	margin: 0 auto 2em;
+	margin: 0 auto 2;
 	text-align: center;
 	font-size: 16px
 }
@@ -189,7 +200,7 @@ body {
 .footer {
 	background-color: #000000;
 	position: relative;
-
+	margin: 7em 0 0;
 }
 
 .footer-button {
