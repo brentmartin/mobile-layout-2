@@ -154,7 +154,7 @@ body {
 
 .content-items-selection {
 	background-color: #FFFFFF;
-	height: 11.35em;
+	height: 13em;
 	padding: 1em;
 	margin: 0 auto 2em;
 }
@@ -171,7 +171,7 @@ body {
 	display: block;
 	height: 1.5em;
 	width: 100%;
-	margin: 0 auto 1em;
+	margin: 0 auto .4em;
 	text-align: center;
 	font-size: 20px
 
@@ -200,6 +200,15 @@ body {
 	margin: 0 auto;
 	position: relative;
 	transform:translateY(-140%);
+}
+
+.footer-button h1 {
+	color: #FFFFFF;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	top: 30%;
 }
 
 .footer-items {
