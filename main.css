@@ -139,11 +139,32 @@ body > p {
 
 .header-items-selection-icon {
 	display: inline-block;
-	background-color: #FFFFFF;
+
 	height: 3.5em;
 	width: 3em;
+	text-align: center;
 	margin: .5em 0 0 0;
 }
+
+.header-items-selection-icon-mobile {
+	display: inline-block;
+
+	height: 3.5em;
+	width: 3em;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+.header-items-selection-icon i {
+	color: #FFFFFF;
+	padding: .3em 0 0 0;
+}
+
+.header-items-selection-icon-mobile i {
+	color: #FFFFFF;
+	padding: .2em 0 0 0;
+}
+
 
 .header-items-selection-text {
 	display: inline-block;
@@ -197,6 +218,7 @@ body > p {
 	padding: .5em 0 0 0;
 }
 
+
 .content-items-selection h1 {
 	color: #36465C;
 	display: block;
@@ -205,7 +227,6 @@ body > p {
 	margin: 0 auto .4em;
 	text-align: center;
 	font-size: 20px
-
 }
 
 .content-items-selection p {
