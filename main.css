@@ -103,9 +103,19 @@ body > p {
 }
 
 .header-banner-button-inside {
-	display: inline-block;
+	text-align: center;
+	border: .5em solid rgba(0,0,0,.5);
+}
+
+.header-banner-button-inside a {
 	background-color: #118BC0;
-	margin: .6em;
+	display: inline-block;
+	text-align: center;
+	padding: 1em;
+	width: 100%;
+	box-sizing: border-box;
+	color: #fff;
+	text-decoration: none;
 }
 
 .header-downarrow {
