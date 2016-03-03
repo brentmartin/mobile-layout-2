@@ -20,8 +20,8 @@ body > p {
 }
 
 .header-topbar-leftlink {
+	color: #FFFFFF;
 	display: inline-block;
-	background-color: #FFFFFF;
 	height: 2em;
 	width: 2em;
 	margin: .5em 1em 0 1em;
@@ -63,6 +63,9 @@ body > p {
 
 .header {
 	background-color: #344052;
+	background-image: url(https://s1.wp.com/home.logged-out/images/pic-crowd-2x.webp?2);
+	background-position: center;
+
 	padding: 0 0 3em;	
 
 }
@@ -182,10 +185,16 @@ body > p {
 .content-items-selection-icon {
 	display: block;
 	background-color: #DDE9F0;
+	text-align: center;
 	height: 4em;
 	width: 4em;
 	margin: 0 auto .75em;
 	border-radius: 50%;
+}
+
+.content-items-selection-icon i {
+	color: #527D99;
+	padding: .5em 0 0 0;
 }
 
 .content-items-selection h1 {
